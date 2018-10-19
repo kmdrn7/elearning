@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * BELOW IS DEFAULT ROUTE :))
  */
 
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'MainController/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
