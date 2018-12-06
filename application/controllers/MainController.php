@@ -5,6 +5,11 @@ class MainController extends CI_Controller {
 
 	public function index()
 	{
-		return view('front.index');
+		$data = [
+			'idh' => 'landing',
+			'hlm' => 'landing/index',
+		];
+
+		$this->load->view('front/index');
 	}
 }
